@@ -131,8 +131,8 @@ impl AroundPoint {
                         let base = j * num_outputs;
                         // Write RGB for the closest hit so far on this ray
                         self.values[base] = rgb.red;
-                        self.values[base + 1] = rgb.blue;
-                        self.values[base + 2] = rgb.green;
+                        self.values[base + 1] = rgb.green;
+                        self.values[base + 2] = rgb.blue;
                     }
                 }
             }
